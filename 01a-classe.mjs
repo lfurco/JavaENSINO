@@ -44,16 +44,18 @@ class FormaGeometrica {
     }
 }
 
-// Exemplo 1: elipse
 let forma1 = new FormaGeometrica()
-forma1.base = 7
-forma1.altura = 22.5
-forma1.tipo = "E"
-console.log("Area da Forma1: ", forma1.calcArea())
-
-// Exemplo 2: retângulo
 let forma2 = new FormaGeometrica()
-forma2.base = 7
-forma2.altura = 22.5
-forma2.tipo = "R"
-console.log("Area da Forma2: ", forma2.calcArea())
+
+forma1.altura = 7
+forma1.base = 12
+forma1.tipo = "T"
+
+console.log(`Área de um Triângulo de 7x12: ${forma1.calcArea()}`)
+
+forma2.base= 7.5,
+forma2.altura= 12.3,
+forma2.tipo= "E"
+
+
+console.log(`Área de uma Elipse de 7.5x12.3: ${forma2.calcArea()}`)
