@@ -26,3 +26,4 @@ console.log({atendido})
 
 console.log(fila.print())   // Segue a lista com os que NAO foram atendidos
 
+    
