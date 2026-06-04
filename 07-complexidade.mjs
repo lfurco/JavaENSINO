@@ -36,6 +36,8 @@ function exemploN2(arr) {
 }
 
 const arr = [1,2,3,4,5];
+
+let dados = Array
 exemploN2(arr)
 
 
